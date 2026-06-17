@@ -17,12 +17,12 @@ msgid "angeltypes.angeltypes"
 msgstr ""
 
 #: includes/controller/angeltypes_controller.php
-msgid "Critter type %s deleted."
+msgid "Engel type %s deleted."
 msgstr ""
 
 #: includes/controller/angeltypes_controller.php
 #: includes/view/AngelTypes_view.php
-msgid "Delete critter type %s"
+msgid "Delete Engel type %s"
 msgstr ""
 
 #: includes/controller/angeltypes_controller.php
@@ -30,7 +30,7 @@ msgid "Please check the name. Maybe it already exists."
 msgstr ""
 
 #: includes/controller/angeltypes_controller.php
-msgid "Critter type saved."
+msgid "Engel type saved."
 msgstr ""
 
 #: includes/controller/angeltypes_controller.php
