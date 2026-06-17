@@ -1,11 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Eurofurence Critter System\\n"
+"Project-Id-Version: Hackover Angel System\\n"
 "POT-Creation-Date: 2017-12-29 19:01+0100\n"
-"PO-Revision-Date: 2024-08-17 13:40+0100\n"
-"Last-Translator: Pattarchus\n"
-"Language-Team: \n"
-"Last-Translator: Pattarchus\n"
+"PO-Revision-Date: 2026-06-17\n"
+"Last-Translator: Raziel\n"
 "Language-Team: \n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
@@ -166,7 +164,7 @@ msgid "schedule.shift-type"
 msgstr "Shift type"
 
 msgid "schedule.needed-from-shift-type"
-msgstr "Load critter types from shift type (else from location)"
+msgstr "Load angel types from shift type (else from location)"
 
 msgid "schedule.minutes-before"
 msgstr "Add minutes before talk begins"
@@ -301,7 +299,7 @@ msgid "settings.profile.pronoun"
 msgstr "Pronoun"
 
 msgid "settings.profile.pronoun.info"
-msgstr "Will be shown on your profile page and in critter lists."
+msgstr "Will be shown on your profile page and in angel lists."
 
 msgid "settings.profile.firstname"
 msgstr "First name"
@@ -340,7 +338,7 @@ msgid "settings.profile.email_messages"
 msgstr "Notify me on new private messages."
 
 msgid "settings.profile.email_by_human_allowed"
-msgstr "Allow Info Desk critters to contact me by e-mail."
+msgstr "Allow Info Desk angels to contact me by e-mail."
 
 msgid "settings.profile.email_goodie"
 msgstr "To possibly receive vouchers for the next similar event, I consent "
@@ -367,7 +365,7 @@ msgid "settings.profile.shirt.link"
 msgstr "More information"
 
 msgid "settings.profile.angeltypes.info"
-msgstr "You can manage your critter types <a href=\"%s\">on the critter types page</a>."
+msgstr "You can manage your angel types <a href=\"%s\">on the angel types page</a>."
 
 msgid "settings.password"
 msgstr "Password"
@@ -490,22 +488,22 @@ msgid "angeltype.ifsg.own"
 msgstr "My health instruction"
 
 msgid "angeltype.ifsg.required.info.preview"
-msgstr "This critter type requires a health instruction."
+msgstr "This angel type requires a health instruction."
 
 msgid "angeltype.ifsg.required.info"
-msgstr "This critter type requires a health instruction. Please enter your health instruction information!"
+msgstr "This angel type requires a health instruction. Please enter your health instruction information!"
 
 msgid "angeltype.ifsg.required.info.here"
-msgstr "You joined a critter type which requires a health instruction. "
+msgstr "You joined a angel type which requires a health instruction. "
 "Please edit your health instruction information here: %s."
 
 msgid "angeltype.driving_license.required.info.here"
 msgstr ""
-"You joined a critter type which requires a driving license. "
+"You joined a angel type which requires a driving license. "
 "Please edit your driving license information here: %s."
 
 msgid "angeltype.driving_license.required.info.preview"
-msgstr "This critter type requires a driver's license."
+msgstr "This angel type requires a driver's license."
 
 msgid "ifsg.info"
 msgstr "Health instruction information"
@@ -648,7 +646,7 @@ msgid "message.title"
 msgstr "Messages"
 
 msgid "message.choose_angel"
-msgstr "Choose a critter"
+msgstr "Choose a angel"
 
 msgid "message.to_conversation"
 msgstr "To Conversation"
@@ -657,7 +655,7 @@ msgid "message.message"
 msgstr "Message"
 
 msgid "angel"
-msgstr "Critter"
+msgstr "angel"
 
 msgid "worklog.add"
 msgstr "Add work log"
@@ -681,7 +679,7 @@ msgid "worklog.delete.info"
 msgstr "Do you really want to delete the work log for %s?"
 
 msgid "angeltypes.angeltypes"
-msgstr "Critter types"
+msgstr "Angel types"
 
 msgid "angeltypes.about"
 msgstr "Teams-/Job description"
@@ -693,19 +691,19 @@ msgid "angeltypes.restricted"
 msgstr "Requires introduction"
 
 msgid "angeltypes.restricted.info"
-msgstr "Critter types which require introduction can only be used by a critter "
+msgstr "Angel types which require introduction can only be used by a angel "
 "if enabled by a supporter (double opt-in)."
 
 msgid "angeltypes.restricted.hint"
-msgstr "This critter type requires the attendance at an introduction meeting. "
+msgstr "This angel type requires the attendance at an introduction meeting. "
 "You might find additional information in the description."
 
 msgid "angeltypes.can-change-later"
 msgstr "You can change your selection later in the settings."
 
 msgid "angeltypes.shift.self_signup.info"
-msgstr "Critter types which have shift self sign-up enabled allow critters to self sign up for their shifts, "
-"if shift self sign-up is disabled only supporters and admins can sign critters into shifts of these critter types."
+msgstr "Angel types which have shift self sign-up enabled allow angels to self sign up for their shifts, "
+"if shift self sign-up is disabled only supporters and admins can sign angels into shifts of these angel types."
 
 msgid "shift.self_signup"
 msgstr "Shift self signup"
@@ -717,8 +715,8 @@ msgid "angeltypes.hide_on_shift_view"
 msgstr "Hide on shift view"
 
 msgid "angeltypes.hide_on_shift_view.info"
-msgstr "If checked only admins and members of the critter type "
-"can see the filter option for this critter type on the shifts page"
+msgstr "If checked only admins and members of the angel type "
+"can see the filter option for this angel type on the shifts page"
 
 msgid "registration.register"
 msgstr "Register"
@@ -733,7 +731,7 @@ msgid "location.map_url"
 msgstr "Map"
 
 msgid "location.required_angels"
-msgstr "Required critters (on schedule import)"
+msgstr "Required angels (on schedule import)"
 
 msgid "location.map_url.info"
 msgstr "The map will be embedded on the location page as an iframe."
@@ -764,7 +762,7 @@ msgid "shifttype.delete.title"
 msgstr "Delete shift type \"%s\""
 
 msgid "shifttype.required_angels"
-msgstr "Required critters (on schedule import)"
+msgstr "Required angels (on schedule import)"
 
 msgid "event.day"
 msgstr "Day %1$d"
@@ -773,7 +771,7 @@ msgid "dashboard.day"
 msgstr "Day"
 
 msgid "registration.title"
-msgstr "Critter registration"
+msgstr "Angel registration"
 
 msgid "registration.login_data"
 msgstr "Login data"
@@ -849,7 +847,7 @@ msgstr "User info"
 msgid "user.info.hint"
 msgstr ""
 "Is displayed for shift coordinators and admins in the user view. "
-"If a critter is not marked as arrived a user-info removes the not-arrived notification in the critters sysmenu."
+"If an angel is not marked as arrived a user-info removes the not-arrived notification in the angels sysmenu."
 
 msgid "user_info.not_arrived_hint"
 msgstr "If you want to sign up for shifts, feel free to drop by the Info Desk."
@@ -899,7 +897,7 @@ msgid "general.shift"
 msgstr "Shift"
 
 msgid "shift.angeltype_source"
-msgstr "Needed critters from: %s"
+msgstr "Needed angels from: %s"
 
 msgid "shift.angeltype_source.shift_type"
 msgstr "Schedule %s via shift type %s"
@@ -959,7 +957,7 @@ msgid "login.use_username_password"
 msgstr "Login with username/password"
 
 msgid "general.angel"
-msgstr "Critter"
+msgstr "Angel"
 
 msgid "title.date"
 msgstr "Date"
@@ -1018,7 +1016,7 @@ msgid "admin_shifts.no_shifttypes"
 msgstr "No shift type has been created yet. Shifts can't be created without one."
 
 msgid "admin_shifts.no_angeltypes"
-msgstr "No critter type has been created yet. Shifts can't be created without one."
+msgstr "No angel type has been created yet. Shifts can't be created without one."
 
 msgid "shift.sign_out.hint"
 msgstr "You can self sign out up to %s hours before the start of the shift. "
@@ -1038,13 +1036,13 @@ msgstr "You were not present for at least %s shifts. Therefore, shift registrati
 
 msgid "freeload.freeloaded.info.goodie"
 msgstr ""
-"If a critter was not present for a shift, the double length of the shift is deducted from the %s. "
-"If %s shifts are freeloaded, the shift registration is blocked for the critter."
+"If an angel was not present for a shift, the double length of the shift is deducted from the %s. "
+"If %s shifts are freeloaded, the shift registration is blocked for the angel."
 
 msgid "freeload.freeloaded.info"
 msgstr ""
-"The critter was not present for a shift. "
-"If %s shifts are freeloaded, the shift registration is blocked for the critter."
+"The angel was not present for a shift. "
+"If %s shifts are freeloaded, the shift registration is blocked for the angel."
 
 msgid "config.config"
 msgstr "Config"
@@ -1053,7 +1051,7 @@ msgid "config.edit.success"
 msgstr "Configuration updated successfully"
 
 msgid "Add more critters"
-msgstr "Add more critter"
+msgstr "Add more angels"
 
 msgid "auth.login.staff_only"
 msgstr "The system is not available for general public"
@@ -1177,7 +1175,7 @@ msgid "certifications.status"
 msgstr "Status"
 
 msgid "certifications.critters_count"
-msgstr "Critters"
+msgstr "Angels"
 
 msgid "certifications.created_at"
 msgstr "Created"
@@ -1368,7 +1366,7 @@ msgid "certifications.approve"
 msgstr "Approve"
 
 msgid "certifications.approved_critters"
-msgstr "Approved Critters"
+msgstr "Approved Angels"
 
 msgid "certifications.basic_information"
 msgstr "Basic Information"
@@ -1395,7 +1393,7 @@ msgid "certifications.created"
 msgstr "Created"
 
 msgid "certifications.critters"
-msgstr "Critters"
+msgstr "Angels"
 
 msgid "certifications.current_status"
 msgstr "Current Status"
@@ -1464,7 +1462,7 @@ msgid "certifications.location.help"
 msgstr "Physical location where this certification training takes place"
 
 msgid "certifications.no_critters_with_status"
-msgstr "No critters with this status"
+msgstr "No angels with this status"
 
 msgid "certifications.no_expiry"
 msgstr "No Expiry"
@@ -1512,7 +1510,7 @@ msgid "certifications.title.help"
 msgstr "Choose a clear, descriptive name for this certification"
 
 msgid "certifications.total_critters"
-msgstr "Total Critters"
+msgstr "Total Angels"
 
 msgid "certifications.validity_period_days"
 msgstr "Validity Period (Days)"
@@ -1696,10 +1694,10 @@ msgid "user_certifications.contact"
 msgstr "Contact"
 
 msgid "user_certifications.critter_id"
-msgstr "Critter ID"
+msgstr "Angel ID"
 
 msgid "user_certifications.critter_name"
-msgstr "Critter Name"
+msgstr "Angel Name"
 
 msgid "user_certifications.date_certified"
 msgstr "Date Certified"
@@ -2028,7 +2026,7 @@ msgid "%s (not"
 msgstr "%s (not"
 
 msgid "%s confirmed for critter type %s."
-msgstr "%s for Critter type %s approved."
+msgstr "%s for angel type %s approved."
 
 msgid "%s has been subscribed to the shift."
 msgstr "%s wurde in die Shift eingetragen."
@@ -2043,13 +2041,13 @@ msgid "Active"
 msgstr "Active"
 
 msgid "Active Critters"
-msgstr "Active Critters"
+msgstr "Active Angels"
 
 msgid "Add supporter rights"
 msgstr "Add supporter rights"
 
 msgid "Add user to critter type"
-msgstr "Add user to critter type"
+msgstr "Add user to angel type"
 
 msgid "Added by %s at %s"
 msgstr "Added by %s at %s"
@@ -2067,7 +2065,7 @@ msgid "All"
 msgstr "All"
 
 msgid "All Critters"
-msgstr "All Critters"
+msgstr "All Angels"
 
 msgid "All users"
 msgstr "Alle User"
@@ -2085,7 +2083,7 @@ msgid "Arrival statistics"
 msgstr "Arrival statistics"
 
 msgid "Arrive critters"
-msgstr "Arrive critters"
+msgstr "Arrive Angels"
 
 msgid "Arrived at %s"
 msgstr "Arrived at %s"
@@ -2121,28 +2119,28 @@ msgid "Confirm all users"
 msgstr "Confirm all users"
 
 msgid "Confirm critter type for user"
-msgstr "Confirm critter type for user"
+msgstr "Confirm angel type for user"
 
 msgid "Confirm user"
 msgstr "Confirm user"
 
 msgid "Confirmed all users for critter type %s."
-msgstr "Confirmed all users for critter type %s."
+msgstr "Confirmed all users for angel type %s."
 
 msgid "Contact"
 msgstr "Contact"
 
 msgid "Copy needed critters from location settings"
-msgstr "Copy needed critters from location settings"
+msgstr "Copy needed angels from location settings"
 
 msgid "Copy needed critters from shift type settings"
-msgstr "Copy needed critters from shift type settings"
+msgstr "Copy needed angels from shift type settings"
 
 msgid "Create a shift over midnight."
 msgstr "Create a shift over midnight."
 
 msgid "Create critter type"
-msgstr "Create critter type"
+msgstr "Create angel type"
 
 msgid "Create multiple shifts"
 msgstr "Create multiple shifts"
@@ -2157,61 +2155,61 @@ msgid "Create shifts"
 msgstr "Create shifts"
 
 msgid "Critter can receive another %d vouchers and is FA."
-msgstr "Critter can receive another %d vouchers and is FA."
+msgstr "Angel can receive another %d vouchers and is FA."
 
 msgid "Critter can receive another %d vouchers."
-msgstr "Critter can receive another %d vouchers."
+msgstr "Angel can receive another %d vouchers."
 
 msgid "Critter has been marked as active."
-msgstr "Critter has been marked as active."
+msgstr "Angel has been marked as active."
 
 msgid "Critter has been marked as arrived."
-msgstr "Critter has been marked as arrived."
+msgstr "Angel has been marked as arrived."
 
 msgid "Critter has been marked as not active."
-msgstr "Critter has been marked as not active."
+msgstr "Angel has been marked as not active."
 
 msgid "Critter has got a T-shirt."
-msgstr "Critter has got a T-shirt."
+msgstr "Angel has got a T-shirt."
 
 msgid "Critter has got a goodie."
-msgstr "Critter has got a goodie."
+msgstr "Angel has got a goodie."
 
 msgid "Critter has got no T-shirt."
-msgstr "Critter has got no T-shirt."
+msgstr "Angel has got no T-shirt."
 
 msgid "Critter has got no goodie."
-msgstr "Critter has got no goodie."
+msgstr "Angel has got no goodie."
 
 msgid "Critter not found."
-msgstr "Critter not found."
+msgstr "Angel not found."
 
 msgid "Critter type"
-msgstr "Critter type"
+msgstr "Angel type"
 
 msgid "Critter type %s deleted."
-msgstr "Critter type %s deleted."
+msgstr "Angel type %s deleted."
 
 msgid "Critter type saved."
-msgstr "Critter type saved."
+msgstr "Angel type saved."
 
 msgid "Critter:"
-msgstr "Critter:"
+msgstr "Angel:"
 
 msgid "Critters"
-msgstr "Critter"
+msgstr "Angel"
 
 msgid "Critters currently working"
-msgstr "Critters currently working"
+msgstr "Angels currently working"
 
 msgid "Critters needed for nightshifts"
-msgstr "Critters needed for nightshifts"
+msgstr "Angels needed for nightshifts"
 
 msgid "Critters needed in the next 3 hrs"
-msgstr "Critters needed in the next 3 hrs"
+msgstr "Angels needed in the next 3 hrs"
 
 msgid "Crittertype doesn't exist."
-msgstr "Crittertype doesn't exist."
+msgstr "Angeltype doesn't exist."
 
 msgid "Date, Duration:"
 msgstr "Date, Duration:"
@@ -2223,10 +2221,10 @@ msgid "Delete %s"
 msgstr "Delete %s"
 
 msgid "Delete critter type %s"
-msgstr "Delete critter type %s"
+msgstr "Delete angel type %s"
 
 msgid "Denied all users for critter type %s."
-msgstr "Denied all users for critter type %s."
+msgstr "Denied all users for angel type %s."
 
 msgid "Deny"
 msgstr "Deny"
@@ -2265,7 +2263,7 @@ msgid "Do you want to become a %2$s?"
 msgstr "Do you want to become a %2$s?"
 
 msgid "Do you want to delete critter type %s?"
-msgstr "Do you want to delete critter type %s?"
+msgstr "Do you want to delete angel type %s?"
 
 msgid "Do you want to delete the shift"
 msgstr "Do you want to delete the shift"
@@ -2325,7 +2323,7 @@ msgid "Forced"
 msgstr "Forced"
 
 msgid "Free Critters"
-msgstr "Free Critters"
+msgstr "Free Angels"
 
 msgid "Freeload comment (Only for shift coordination and supporters):"
 msgstr "Freeload comment (Only for shift coordination and supporters):"
@@ -2382,10 +2380,10 @@ msgid "Help needed"
 msgstr "Help needed"
 
 msgid "Here you can define the user groups of the critter:"
-msgstr "Here you can define the user groups of the critter:"
+msgstr "Here you can define the user groups of the angel:"
 
 msgid "Here you can reset the password of this critter:"
-msgstr "Here you can reset the password of this critter:"
+msgstr "Here you can reset the password of this angel:"
 
 msgid "Hide at Registration"
 msgstr "Hide at Registration"
@@ -2397,10 +2395,10 @@ msgid "Hours to be worked"
 msgstr "Hours to be worked"
 
 msgid "How many critters should be active?"
-msgstr "How many critters should be active?"
+msgstr "How many angels should be active?"
 
 msgid "If the critter is active, it can claim a goodie. If goodie is set to 'Yes', the critter already got their goodie."
-msgstr "If the critter is active, it can claim a goodie. If goodie is set to 'Yes', the critter already got their goodie."
+msgstr "If the angel is active, it can claim a goodie. If goodie is set to 'Yes', the angel already got their goodie."
 
 msgid "Info"
 msgstr "Info"
@@ -2421,7 +2419,7 @@ msgid "Leave"
 msgstr "Leave"
 
 msgid "Leave critter type"
-msgstr "Leave critter type"
+msgstr "Leave angel type"
 
 msgid "Length"
 msgstr "Length"
@@ -2442,7 +2440,7 @@ msgid "Manage locations"
 msgstr "Manage locations"
 
 msgid "Marked critters."
-msgstr "Marked critters."
+msgstr "Marked angels."
 
 msgid "Member"
 msgstr "Member"
@@ -2466,10 +2464,10 @@ msgid "Name & Workmates"
 msgstr "Name & Workmates"
 
 msgid "Needed critters"
-msgstr "Needed critters"
+msgstr "Needed angels"
 
 msgid "Needed critters:"
-msgstr "Needed critters:"
+msgstr "Needed angels:"
 
 msgid "Next shift %c"
 msgstr "Next shift %c"
@@ -2511,7 +2509,7 @@ msgid "Occupancy"
 msgstr "Occupancy"
 
 msgid "Other critter type needed / collides with my shifts"
-msgstr "Other critter type needed / collides with my shifts"
+msgstr "Other angel type needed / collides with my shifts"
 
 msgid "Own"
 msgstr "Own"
@@ -2538,16 +2536,16 @@ msgid "Please check the name. Maybe it already exists."
 msgstr "Please check the name. Maybe it already exists."
 
 msgid "Please check the needed critters for team %s."
-msgstr "Please check the needed critters for team %s."
+msgstr "Please check the needed angels for team %s."
 
 msgid "Please check your input for needed critters of type %s."
-msgstr "Please check your input for needed critters of type %s."
+msgstr "Please check your input for needed angels of type %s."
 
 msgid "Please enter a freeload comment!"
 msgstr "Please enter a freeload comment!"
 
 msgid "Please enter a number of critter to be marked as active."
-msgstr "Please enter a number of critter to be marked as active."
+msgstr "Please enter a number of angel to be marked as active."
 
 msgid "Please enter a shift duration in minutes."
 msgstr "Please enter a shift duration in minutes."
@@ -2565,7 +2563,7 @@ msgid "Please select a location."
 msgstr "Please select a location."
 
 msgid "Please select a mode for needed critters."
-msgstr "Please select a mode for needed critters."
+msgstr "Please select a mode for needed angels."
 
 msgid "Please select a mode."
 msgstr "Please select a mode."
@@ -2580,7 +2578,7 @@ msgid "Please select an end time."
 msgstr "Please select an end time."
 
 msgid "Please select needed critters."
-msgstr "Please select needed critters."
+msgstr "Please select needed angels."
 
 msgid "Please split the shift-change hours by colons."
 msgstr "Please split the shift-change hours by colons."
@@ -2628,7 +2626,7 @@ msgid "Reset"
 msgstr "Reset"
 
 msgid "Reset done. Critter has not arrived."
-msgstr "Reset done. Critter has not arrived."
+msgstr "Reset done. Angel has not arrived."
 
 msgid "Reset to previous state"
 msgstr "Reset to previous state"
@@ -2643,7 +2641,7 @@ msgid "Saved the number of vouchers."
 msgstr "Saved the number of vouchers."
 
 msgid "Search critter:"
-msgstr "Search critter:"
+msgstr "Search angel:"
 
 msgid "Set active"
 msgstr "Set active"
@@ -2754,19 +2752,19 @@ msgid "The entries must match and must not be empty!"
 msgstr "The entries must match and must not be empty!"
 
 msgid "The following critters are needed"
-msgstr "The following critters are needed"
+msgstr "The following angels are needed"
 
 msgid "The shifts end has to be after its start."
 msgstr "The shifts end has to be after its start."
 
 msgid "There are 0 critters needed. Please enter the amounts of needed critters."
-msgstr "There are 0 critters needed. Please enter the amounts of needed critters."
+msgstr "There are 0 angels needed. Please enter the amounts of needed angels."
 
 msgid "There are unanswered questions!"
 msgstr "There are unanswered questions!"
 
 msgid "There are unconfirmed critters in %d critter type. Critter type that needs approval:"
-msgstr "There are unconfirmed critters in %d critter type. Critter type that needs approval:"
+msgstr "There are unconfirmed angels in %d angel type. Angel type that needs approval:"
 
 msgid "This description is for single shifts, otherwise please use the description in shift type."
 msgstr "This description is for single shifts, otherwise please use the description in shift type."
@@ -2835,7 +2833,7 @@ msgid "User groups saved."
 msgstr "User groups saved."
 
 msgid "User is not in critter type."
-msgstr "User is not in critter type."
+msgstr "User is not in angel type."
 
 msgid "User not found."
 msgstr "User not found."
@@ -2865,16 +2863,16 @@ msgid "You are already a %s."
 msgstr "You are already a %s."
 
 msgid "You are not allowed to confirm all users for this critter type."
-msgstr "You are not allowed to confirm all users for this critter type."
+msgstr "You are not allowed to confirm all users for this angel type."
 
 msgid "You are not allowed to confirm this users critter type."
-msgstr "You are not allowed to confirm this users critter type."
+msgstr "You are not allowed to confirm this users angel type."
 
 msgid "You are not allowed to delete all users for this critter type."
-msgstr "You are not allowed to delete all users for this critter type."
+msgstr "You are not allowed to delete all users for this angel type."
 
 msgid "You are not allowed to delete this users critter type."
-msgstr "You are not allowed to delete this users critter type."
+msgstr "You are not allowed to delete this users angel type."
 
 msgid "You are not allowed to sign up yet."
 msgstr "You are not allowed to sign up yet."
@@ -2892,7 +2890,7 @@ msgid "You cannot delete yourself."
 msgstr "You cannot delete yourself."
 
 msgid "You cannot edit critters with more rights."
-msgstr "You cannot edit critters with more rights."
+msgstr "You cannot edit angels with more rights."
 
 msgid "You cannot edit your own rights."
 msgstr "You cannot edit your own rights."
@@ -2910,7 +2908,7 @@ msgid "You joined %s."
 msgstr "You joined %s."
 
 msgid "You need be accepted member of the critter type."
-msgstr "You need be accepted member of the critter type."
+msgstr "You need be accepted member of the angel type."
 
 msgid "You successfully left"
 msgstr "You successfully left"
@@ -2976,7 +2974,7 @@ msgid "please arrive for signup"
 msgstr "please arrive for signup"
 
 msgid "angeltypes.certification_requirements.user_info"
-msgstr "This Critter type requires certification before you can apply"
+msgstr "This Angel type requires certification before you can apply"
 
 
 # User Certifications - Missing keys added
