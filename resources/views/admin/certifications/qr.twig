@@ -14,7 +14,7 @@
     <meta name="digital-id:page-type" content="certification">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Certification QR Code - {{ certification.title }} - Critter System</title>
+    <title>Certification QR Code - {{ certification.title }} - {{__('Critter System')}}</title>
 
     <link rel="stylesheet" type="text/css" href="{{ url('assets/special/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('assets/special/bootstrap-icons/font/bootstrap-icons.min.css') }}">
@@ -106,7 +106,7 @@
         <!-- Footer -->
         <div class="text-center mt-4 mb-3">
             <small class="text-muted">
-                Certification QR System - Critter System
+                Certification QR System - {{__('Critter System')}}
                 <br>
                 Last updated: <span id="last-updated">{{ "now"|date("H:i:s") }}</span>
             </small>

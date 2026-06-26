@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta id="csrf" name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Installation Workflow - CritterSystem</title>
+    <title>Installation Workflow - {{__('Critter System')}}</title>
 
     <script src="/assets/special/xterm/lib/xterm.js"></script>
 
@@ -19,8 +19,8 @@
 <body class="bg-light">
     <div class="container install-container">
         <div class="text-center mb-4">
-            <h1 class="h2"><i class="bi bi-gear-fill"></i> CritterSystem Installation</h1>
-            <p class="text-muted">Complete the installation process for your CritterSystem instance</p>
+            <h1 class="h2"><i class="bi bi-gear-fill"></i> {{__('Critter System')}} Installation</h1>
+            <p class="text-muted">Complete the installation process for your {{__('Critter System')}} instance</p>
         </div>
 
         <!-- Authentication Step -->
@@ -152,7 +152,7 @@
                 <div id="completion-content" class="hidden">
                     <div class="alert alert-success">
                         <h6><i class="bi bi-check-circle"></i> Installation Complete!</h6>
-                        <p class="mb-0">Your CritterSystem instance has been successfully installed. You can now access the application.</p>
+                        <p class="mb-0">Your Engelsystem instance has been successfully installed. You can now access the application.</p>
                     </div>
                     <a href="/" class="btn btn-primary">
                         <i class="bi bi-house"></i> Go to Application
