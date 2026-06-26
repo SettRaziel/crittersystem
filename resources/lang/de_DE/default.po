@@ -99,7 +99,7 @@ msgstr "Version: _%s_"
 
 msgid "credits.credit"
 msgstr ""
-"Das ursprüngliche Crittersystem wurde entwickelt von [cookie](https://github."
+"Das ursprüngliche Engelsystem wurde entwickelt von [cookie](https://github."
 "com/cookieBerlin/engelsystem). Danach wurde es von [msquare](https://"
 "notrademark.de) (Maintainer) und [MyIgel](https://myigel.name) vollständig "
 "überarbeitet und verbessert. Seit EF28 nutzt [Eurofurence](https://eurofurence.org) einen eigenen Fork."
@@ -169,6 +169,12 @@ msgstr "Wiederherstellen"
 
 msgid "Critter type %s deleted."
 msgstr "Engeltyp %s gelöscht."
+
+msgid "Critter System"
+msgstr "Engelsystem"
+
+msgid "Crittersystem"
+msgstr "Engelsystem"
 
 msgid "Delete critter type %s"
 msgstr "Lösche Engeltyp %s"
@@ -1219,8 +1225,8 @@ msgstr "Bitte gib eine T-Shirt-Größe in deinen Einstellungen an."
 
 msgid "dect.required.hint"
 msgstr ""
-"Bitte gib ein Telegram-Handle in deinen Einstellungen an. Wenn du "
-"keinen Telegram-Account hast, trage einfach '-' ein."
+"Bitte gib eine DECT Nummer in deinen Einstellungen an. Wenn du "
+"keinen DECT hast, trage einfach '-' ein."
 
 msgid "pronoun.required.hint"
 msgstr "Bitte gib ein Pronomen in deinen Einstellungen an."

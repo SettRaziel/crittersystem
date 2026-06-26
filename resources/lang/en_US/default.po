@@ -32,7 +32,7 @@ msgid "general.login"
 msgstr "Login"
 
 msgid "general.dect"
-msgstr "Telegram"
+msgstr "DECT"
 
 msgid "general.name"
 msgstr "Name"
@@ -77,7 +77,7 @@ msgstr "The provided CSRF token is invalid or has expired"
 
 msgid "credits.credit"
 msgstr ""
-"The original engelsystem was written by "
+"The original Engelsystem was written by "
 "[cookie](https://github.com/cookieBerlin/engelsystem)"
 ". It was rewritten and enhanced by "
 "[msquare](https://notrademark.de)"
@@ -787,8 +787,8 @@ msgstr "Please specify a T-shirt size in your settings!"
 
 msgid "dect.required.hint"
 msgstr ""
-"Please specify a Telegram handle in your settings! "
-"If you don't have a Telegram account, just enter '-'."
+"Please specify a DECT number in your settings! "
+"If you don't have a DECT, just enter '-'."
 
 msgid "pronoun.required.hint"
 msgstr "Please enter a pronoun in your settings!"
@@ -2186,6 +2186,15 @@ msgstr "Angel not found."
 
 msgid "Critter type"
 msgstr "Angel type"
+
+msgid "Critter Type"
+msgstr "Angel type"
+
+msgid "Critter System"
+msgstr "Engelsystem"
+
+msgid "Crittersystem"
+msgstr "Engelsystem"
 
 msgid "Critter type %s deleted."
 msgstr "Angel type %s deleted."
