@@ -163,6 +163,12 @@ msgstr "Schedule URL (schedule.xml)"
 msgid "schedule.shift-type"
 msgstr "Shift type"
 
+msgid "Ask the user to refresh their Critter ID"
+msgstr "Ask the user to refresh their Angel ID"
+
+msgid "Critter ID"
+msgstr "Angel ID"
+
 msgid "schedule.needed-from-shift-type"
 msgstr "Load angel types from shift type (else from location)"
 
