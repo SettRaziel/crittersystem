@@ -89,11 +89,11 @@
                     {% endif %}
 
 					{{ _self.toolbar_item(
-						'<span class="show-if-small" style="display: none;">Critter ID</span>',
+						'<span class="show-if-small" style="display: none;">Angel ID</span>',
 						url('/digital-id'),
 						'digital-id',
 						'qr-code',
-						'Critter ID'
+						'Angels ID'
 					) }}
 					
                     {{ menuUserHints() }}
@@ -113,7 +113,7 @@
                             {% endif %}
 
                             {% if can('user_myshifts') %}
-                                {{ _self.dropdown_item('Critter ID', url('/digital-id'), 'digital-id', m.icon('qr-code')) }}
+                                {{ _self.dropdown_item('Angel ID', url('/digital-id'), 'digital-id', m.icon('qr-code')) }}
                             {% endif %}
 
                             {% if can('logout') %}

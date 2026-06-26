@@ -299,6 +299,12 @@ msgstr "Schicht gelöscht."
 msgid "Do you want to delete the shift \"%s\" from %s to %s?"
 msgstr "Möchtest Du die Schicht \"%s\" von %s bis %s löschen?"
 
+msgid "Ask the user to refresh their Critter ID"
+msgstr "Frag den Engel die Engel ID zu erneuern"
+
+msgid "Critter ID"
+msgstr "Engel ID"
+
 msgid "Shift could not be found."
 msgstr "Schicht konnte nicht gefunden werden."
 
