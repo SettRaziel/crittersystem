@@ -396,6 +396,11 @@ return [
     // Supported themes
     // To disable a theme in config.php, you can set its value to null
     'themes' => [
+        23 => [
+            'name' => 'HO 26',
+            'type' => 'dark',
+            'navbar_classes' => 'navbar-dark',
+        ],
         21 => [
             'name' => 'EF 29',
             'type' => 'dark',
