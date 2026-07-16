@@ -305,6 +305,9 @@ msgstr "Frag den Engel die Engel ID zu erneuern"
 msgid "Critter ID"
 msgstr "Engel ID"
 
+msgid "Critter"
+msgstr "Engel"
+
 msgid "Shift could not be found."
 msgstr "Schicht konnte nicht gefunden werden."
 
