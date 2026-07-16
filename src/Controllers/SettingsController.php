@@ -430,9 +430,9 @@ class SettingsController extends BaseController
 
         $menu[url('/user/certifications')] = 'Certifications';
 
-        if (empty(config('oauth'))) {
-            $menu[url('/settings/password')] = ['title' => 'settings.password', 'icon' => 'key-fill'];
-        }
+//        if (empty(config('oauth'))) {
+        $menu[url('/settings/password')] = ['title' => 'settings.password', 'icon' => 'key-fill'];
+//        }
 
         if (count(config('locales')) > 1) {
             $menu[url('/settings/language')] = ['title' => 'settings.language', 'icon' => 'translate'];
