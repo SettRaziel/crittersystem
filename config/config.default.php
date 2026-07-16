@@ -398,8 +398,13 @@ return [
     'themes' => [
         23 => [
             'name' => 'HO 26',
-            'type' => 'dark',
-            'navbar_classes' => 'navbar-dark',
+            'type' => 'light',
+            'navbar_classes' => 'navbar-light',
+        ],
+        24 => [
+            'name' => 'Engelsystem Pro',
+            'type' => 'light',
+            'navbar_classes' => 'navbar-light',
         ],
         21 => [
             'name' => 'EF 29',
