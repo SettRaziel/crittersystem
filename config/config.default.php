@@ -401,6 +401,11 @@ return [
             'type' => 'dark',
             'navbar_classes' => 'navbar-dark',
         ],
+        24 => [
+            'name' => 'Engelsystem Pro',
+            'type' => 'light',
+            'navbar_classes' => 'navbar-light',
+        ],
         21 => [
             'name' => 'EF 29',
             'type' => 'dark',
