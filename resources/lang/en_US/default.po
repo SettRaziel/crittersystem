@@ -2212,6 +2212,9 @@ msgid "Critter:"
 msgstr "Angel:"
 
 msgid "Critters"
+msgstr "Angels"
+
+msgid "Critter"
 msgstr "Angel"
 
 msgid "Critters currently working"
