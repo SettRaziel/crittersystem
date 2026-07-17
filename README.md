@@ -43,13 +43,18 @@ Please read the [CONTRIBUTING.md](CONTRIBUTING.md) and [DEVELOPMENT.md](docs/src
     - `APP_ENABLE_INSTALL_WORKFLOW=true`
     - `APP_INITIAL_ADMIN_PASSWORD=your_secure_password_here`
 
-### Docker
+### Docker: 
 
 - Development (mounted sources):
-  1) `cd docker\dev`
-  2) `docker compose up -d`
-  3) Open http://127.0.0.1/admin/install
-    - Optional: edit `docker\dev\deployment.env` to set `APP_*` variables.
+1. Clone the repo
+2. `cd docker/dev`
+3. Run `docker compose up -d`
+4. Install Dependencies `docker exec -it engelsystem_dev-es_workspace-1 /usr/bin/composer install`
+5. Install Yarn Dependencies `docker exec -it engelsystem_dev-es_workspace-1 /usr/bin/yarn install`
+6. Build Yarn `docker exec -it engelsystem_dev-es_workspace-1 /usr/bin/yarn build`
+7. Migrate `docker exec -it engelsystem_dev-es_workspace-1 /usr/local/bin/php bin/migrate`
+8. Run the installer in your browser: http://127.0.0.1:5080/admin/install
+9. Login with `admin` and `asdfasdf`
 
 - Basic compose:
   1) `cd docker`
