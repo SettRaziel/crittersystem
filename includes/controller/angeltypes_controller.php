@@ -52,8 +52,7 @@ function angeltypes_controller()
  */
 function angeltype_link($angeltype_id, $params = [])
 {
-    $params = array_merge(['action' => 'view', 'angeltype_id' => $angeltype_id], $params);
-    return url('/angeltypes', $params);
+    return url('/crittertypes/' . $angeltype_id, $params);
 }
 
 /**
