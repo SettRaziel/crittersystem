@@ -31,12 +31,14 @@ function location_controller(): array
             $days[$day] = dateWithEventDay($day);
         }
     }
-
+    $all_angel_types = AngelType::query()->get('id')->pluck('id')->toArray();
     $shiftsFilter = new ShiftsFilter(
         true,
         [$location->id],
-        AngelType::query()->get('id')->pluck('id')->toArray()
+        $all_angel_types,
     );
+    $shiftsFilter->setTypes($all_angel_types);
+    $shiftsFilter->setLocations([$location->id]);
     $selected_day = date('Y-m-d');
     if (!empty($days) && !isset($days[$selected_day])) {
         $selected_day = array_key_first($days);
